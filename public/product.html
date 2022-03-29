@@ -4,172 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <style>
-        
-    </style>
-    <title>Clothing - Best Apparels Online Store</title>
-
+    <link rel="stylesheet" href="css/product.css">
+    <title>Product - </title>
 </head>
 
 <body>
-    <nav class="navbar">
+    <div class="navbar"></div>
 
-    </nav>
-
-    <!-- Hero section -->
-    <header class="hero-section">
-        <div class="content">
-            <img src="img/light-logo.png" alt="Logo light" class="logo">
-            <p class="sub-heading">best fashion collection of all time</p>
+    <section class="product-details">
+        <div class="image-slider">
+            <div class="product-images">
+                <img src="img/product image 1.png" class="active" alt="Image Product 01">
+                <img src="img/product image 2.png" alt="Image Product 02">
+                <img src="img/product image 3.png" alt="Image Product 03">
+                <img src="img/product image 4.png" alt="Image Product 04">
+            </div>
         </div>
-    </header>
+        <div class="details">
+            <h2 class="product-brand">calvin klein</h2>
+            <p class="product-short-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <span class="product-price">$99</span>
+            <span class="product-actual-price">$200</span>
+            <span class="product-discount">( 50% off )</span>
+            <p class="product-sub-heading">select size</p>
+            <!-- ---- -->
+            <input type="radio" name="size" value="s" checked hidden id="s-size">
+            <label for="s-size" class="size-radio-btn check">s</label>
+            <!-- ---- -->
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radio-btn">m</label>
+            <!-- ---- -->
+            <input type="radio" name="size" value="l" hidden id="l-size">
+            <label for="l-size" class="size-radio-btn">l</label>
+            <!-- ---- -->
+            <input type="radio" name="size" value="xl" hidden id="xl-size">
+            <label for="xl-size" class="size-radio-btn">xl</label>
+            <!-- ---- -->
+            <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+            <label for="xxl-size" class="size-radio-btn">xxl</label>
 
-    <!-- cards- containers -->
-    <section class="product">
-        <h2 class="product-category">
-            besst selling </h2>
-        <button class="pre-btn"><img src="img/arrow.png" alt="Arrow"></button>
-        <button class="nxt-btn"><img src="img/arrow.png" alt="Arrow"></button>
-        <div class="product-container">
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card1.png" alt="model-01" class="product-thumb">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth...</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-            <!-- -----------P-->
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card2.png" alt="model-01" class="product-thumb">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth...</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-            <!-- ----------- -->
-            <!-- -----------P-->
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card3.png" alt="model-01" class="product-thumb">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth...</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-            <!-- ----------- -->
-            <!-- -----------P-->
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card4.png" alt="model-01" class="product-thumb">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth...</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-            <!-- ----------- -->
-            <!-- -----------P-->
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card5.png" alt="model-01" class="product-thumb">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth...</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-            <!-- ----------- -->
-            <!-- -----------P-->
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card6.png" alt="model-01" class="product-thumb">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth...</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-            <!-- ----------- -->
-            <!-- -----------P-->
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card7.png" alt="model-01" class="product-thumb">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth...</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-            <!-- ----------- -->
-            <!-- -----------P-->
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card8.png" alt="model-01" class="product-thumb">
-                    <button class="card-btn">add to whislist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth...</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
-                </div>
-            </div>
-            <!-- ----------- -->
+
+            <button class="btn cart-btn">add to cart</button>
+            <button class="btn">add to wishlist</button>
         </div>
     </section>
 
-    <!--collections-->
-    <section class="collection-container">
-        <a href="#" class="collection">
-            <img src="img/women-collection.png" alt="women collection">
-            <p class="collection-title">women <br> apparels</p>
-        </a>
-        <a href="#" class="collection">
-            <img src="img/men-collection.png" alt="men collection">
-            <p class="collection-title">men <br> apparels</p>
-        </a>
-        <a href="#" class="collection">
-            <img src="img/accessories-collection.png" alt="accessories collection">
-            <p class="collection-title">accessories</p>
-        </a>
-    </section>
+    <!-- Video: 1:00:13 -->
 
-
-
+    <!-- card-container -->
     <section class="product">
         <h2 class="product-category">
             Shirts </h2>
@@ -407,16 +291,17 @@
             <!-- ----------- -->
         </div>
     </section>
-    <!-- FOOTER -->
+
+
+    <!-- footer -->
     <footer>
-    
     </footer>
 
+    <script src="js/product.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/productContainer.js"></script>
 
-
-    <script src="js/home.js"></script>
-
-    <!-- video: 48:35 -->
 </body>
 
 </html>
