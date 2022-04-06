@@ -1,1 +1,1 @@
-# web-project-fullstack-e-commerce
+# Web Project Fullstack E-commerce
